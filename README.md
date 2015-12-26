@@ -1,1 +1,1 @@
-# UIPageViewControllerSample
+ContainerView と UIPageViewController を使って画面の一部をページングさせるサンプル
