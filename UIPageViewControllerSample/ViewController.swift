@@ -67,7 +67,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     // 順方向にページ送りした時に呼ばれるメソッド
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         
-        guard let index = vcArray.indexOf(viewController as! DataViewController) where index < vcArray.count else {
+        guard let index = vcArray.indexOf(viewController as! DataViewController) where index < vcArray.count - 1 else {
             return nil
         }
         
